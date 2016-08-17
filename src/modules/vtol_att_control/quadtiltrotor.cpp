@@ -38,7 +38,7 @@
  *
 */
 
-#include "tiltrotor.h"
+#include "quadtiltrotor.h"
 #include "vtol_att_control_main.h"
 
 #define ARSP_YAW_CTRL_DISABLE 7.0f	// airspeed at which we stop controlling yaw during a front transition
