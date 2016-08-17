@@ -37,7 +37,7 @@ px4_add_module(
 	COMPILE_FLAGS -Os
 	SRCS
 		vtol_att_control_main.cpp
-		tiltrotor.cpp
+		quadtiltrotor.cpp
 		vtol_type.cpp
 		tailsitter.cpp
 		standard.cpp
