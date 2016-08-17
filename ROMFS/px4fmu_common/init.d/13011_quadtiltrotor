@@ -4,7 +4,7 @@
 #
 # @type VTOL Tiltrotor
 #
-# @maintainer Roman Bapst <roman@px4.io>
+# @maintainer Robin Luo <luojinglinemail@gmail.com>
 #
 
 sh /etc/init.d/rc.vtol_defaults
@@ -34,20 +34,25 @@ then
 	param set VT_TILT_REAR_TRANS 0.08
 	param set VT_TILT_FRONT_FW 0.9
 	param set VT_TILT_REAR_FW 0.9
+
+	param set VT_MOT_COUNT 4
+	param set VT_FW_MOT_OFFID 24
+    param set VT_IDLE_PWM_MC 1080
+    param set VT_TYPE 1
+
 fi
 
 set MIXER quadtilt
-set PWM_OUT 12345678
+set PWM_OUT 1234
+set PWM_RATE 400
 
 set MIXER_AUX quadtilt
 set PWM_AUX_RATE 50
 set PWM_AUX_OUT 1234
 set PWM_AUX_DISARMED 1000
-set PWM_AUX_MIN 1000
-set PWM_AUX_MAX 2000
+set PWM_AUX_MIN 500
+set PWM_AUX_MAX 2500
 
 set MAV_TYPE 22
 
-param set VT_MOT_COUNT 4
-param set VT_IDLE_PWM_MC 1080
-param set VT_TYPE 1
+
