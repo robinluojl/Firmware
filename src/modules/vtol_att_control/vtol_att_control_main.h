@@ -93,7 +93,7 @@
 #include <lib/geo/geo.h>
 #include <fcntl.h>
 
-#include "tiltrotor.h"
+#include "quadtiltrotor.h"
 #include "tailsitter.h"
 #include "standard.h"
 
