@@ -30,8 +30,8 @@ then
 
 	param set VT_TILT_FRONT_MC 0.08
 	param set VT_TILT_REAR_MC 0.08
-	param set VT_TILT_FRONT_TRANS 0.5
-	param set VT_TILT_REAR_TRANS 0.08
+	param set VT_TILT_FRONT_TS 0.5
+	param set VT_TILT_REAR_TS 0.08
 	param set VT_TILT_FRONT_FW 0.9
 	param set VT_TILT_REAR_FW 0.9
 
