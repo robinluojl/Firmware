@@ -32,10 +32,9 @@
  ****************************************************************************/
 
 /**
-* @file tiltrotor.h
+* @file quadtiltrotor.h
 *
-* @author Roman Bapst 		<bapstroman@gmail.com>
-*
+* maintainer Robin Luo <luojinglinemail@gmail.com>
 */
 
 #ifndef QUADTILTROTOR_H

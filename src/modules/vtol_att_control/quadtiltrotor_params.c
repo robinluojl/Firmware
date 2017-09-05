@@ -35,7 +35,7 @@
  * @file quadtiltrotor_params.c
  * Parameters for vtol attitude controller.
  *
- * @author Roman Bapst <bapstroman@gmail.com>
+ * @maintainer Robin Luo <luojinglinemail@gmail.com>
  */
 
 #include <systemlib/param/param.h>

@@ -32,10 +32,9 @@
  ****************************************************************************/
 
 /**
- * @file tiltrotor.cpp
+ * @file quadtiltrotor.cpp
  *
- * @author Roman Bapst 		<bapstroman@gmail.com>
- *
+ * @maintainer Robin Luo <luojinglinemail@gmail.com>
 */
 
 #include "quadtiltrotor.h"
